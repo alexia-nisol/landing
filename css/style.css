@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Roboto+Slab:300,400,600,700|Tomorrow:400,500,600,700&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+    font-family:'Raleway', sans-serif;
+    font-size:18px;
+    background-color: #191C23;
+    color:white;
+    margin:0px;
+}
+
+h1,h3 {
+	font-family:Tomorrow,sans-serif;
+	font-weight:500;
+}
+
+h2,h4{
+	font-family:'Roboto Slab', serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#e3b04b;
+}
+
+h3{
+	font-size:25px;
+}
+
+a{
+		text-decoration: none;
+}
